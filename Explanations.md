@@ -76,7 +76,7 @@ A process can call the kernel to do `fork()`, which creates a new process, which
 - The pid
 - The value returned from fork:
 - In the new process - 0
-- In the parent process - the new pid
+- In the parent process - the new child process pid
 - In case of failure - some negative error code
 
 ### *`exec()`*
